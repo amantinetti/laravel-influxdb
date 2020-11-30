@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "TrayLabs\\InfluxDB\\": "src/"
+            "amantinetti\\InfluxDB\\": "src/"
         }
     },
     "require": {
@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TrayLabs\\InfluxDB\\Providers\\ServiceProvider"
+                "amantinetti\\InfluxDB\\Providers\\ServiceProvider"
             ],
             "aliases": {
-                "InfluxDB": "TrayLabs\\InfluxDB\\Facades\\InfluxDB"
+                "InfluxDB": "amantinetti\\InfluxDB\\Facades\\InfluxDB"
             }
         }
    }
